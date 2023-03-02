@@ -1,65 +1,94 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "React",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "JavaScript",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "Node",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "Bootstrap/Tailwind",
       "image": {
-        "src": "../../images/medium.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Animations",
+      "label": "Redux/Toolkit",
       "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "Firebase",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "SQL",
       "image": {
-        "src": "../../images/gatsby.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Blazing Fast",
+      "label": "WEB 3.0",
       "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Github",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "label": "C++",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "label": "JAVA",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "label": " Blockchain",
+      "image": {
+        "src": "",
         "alt": ""
       }
     }
+    
   ],
   "button": {
     "visible": true,
     "label": "+ Load More",
-    "initiallyShownInterests": 5
+    "initiallyShownInterests": 20
   }
 }

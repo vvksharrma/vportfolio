@@ -2,40 +2,145 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🧰 Personal Project",
+      "title": "Netflix Clone",
+      "description": "Netflix clone made with React and with firebase authentication, user login feature and multiple pages",
+      "tags": ["React", "styled-component","redux-toolkit","Firebase"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
-      ]
-    },
-    {
-      "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
-      "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/netflixclone.png",
         "alt": "Extendable Layout"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/vvksharrma/Netflix-clone"
+        },
+        {
+          "type": "external",
+          "url": "https://netflixop.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 Personal Project",
+      "title": " Corona Virus Tracker",
+      "description": "Web app using React that show users number of active Deceased and recovered cases of Covid-19 Utilized the open source Corona Virus API and React props, DOM,Router and Axios for fetching API.Built features like loading spinner, Map and Dark Mode",
+      "tags": ["React","Basic", "API","Router","GraphChart"],
+      "image": {
+        "src": "../../images/covid19.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/vvksharrma/covid-19"
+        },
+        {
+          "type": "external",
+          "url": "https://covid-statis.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 College minor Project",
+      "title": "Placement Cell Web Portal",
+      "description": "The system is an online application for the Training and Placement Dept. of the college that can be accessed throughout the organization and outside as well with proper login provided Tech Used : HTML, CSS, Bootstrap, JQuery, PHP",
+      "tags": ["HTML", "CSS","Bootstrap","php"],
+      "image": {
+        "src": "../../images/placementCell.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/vvksharrma/PlacementCell"
+        },
+        {
+          "type": "external",
+          "url": "https://github.com/vvksharrma/PlacementCell"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 College Project",
+      "title": "Weather App",
+      "description": "Android Application for Current Weather(temperature, humidity, air) in area using device location Tech Used Java, XML,API,Android Studio",
+      "tags": ["Android", "JAVA","Mobile"],
+      "image": {
+        "src":"../../images/weather-app.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/vvksharrma/weatherApp"
+        },
+        {
+          "type": "external",
+          "url": "https://github.com/vvksharrma/weatherApp"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 Personal Project",
+      "title": "QR Code generator",
+      "description": "Simple website to convert link into QR code which have multiple use cases built using javascript",
+      "tags": ["HTML", "CSS","Javascript"],
+      "image": {
+        "src": "../../images/qrgen.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/vvksharrma/QRgenerator"
+        },
+        {
+          "type": "external",
+          "url": "https://qrcode333.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 Personal Project",
+      "title": "NeoMorphish Calculator",
+      "description": "Neomorphism design basic simple calculator",
+      "tags": ["HTML", "CSS","Javascript"],
+      "image": {
+        "src":"../../images/neocal.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/vvksharrma/NeoCalc"
+        },
+        {
+          "type": "external",
+          "url": "https://vvksharrma.github.io/NeoCalc/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🕹️ College Major Project",
+      "title": "E-Voting system",
+      "description": "Final year Academic project Online E-voting system using blockchain Technology smart contract Ethererium, Web 3, Metamsak, solidity",
+      "tags": ["react", "Web3","Blockchain"],
+      "image": {
+        "src": "../../images/evote.jpg",
+        "alt": "",
+        "linkTo": "https://github.com/vvksharrma"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/"
         }
       ]
     }
@@ -43,6 +148,6 @@
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/vvksharrma"
   }
 }
