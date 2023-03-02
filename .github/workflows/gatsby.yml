@@ -31,7 +31,10 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  
+    defaults:
+       run:
+         working-directory: ./server/
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -82,6 +85,9 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          cache-dependency-path: './server/package-lock.json'
 
   # Deployment job
   deploy:
