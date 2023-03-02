@@ -2,6 +2,7 @@ module.exports = {
   pathPrefix: "/vportfolio",
   plugins: [
     {
+      pathPrefix: "/vportfolio",
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
         siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
